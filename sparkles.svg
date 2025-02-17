@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <circle cx="10%" cy="20%" r="2" fill="#FFFFFF" />
+  <circle cx="30%" cy="50%" r="3" fill="#FFFFFF" />
+  <circle cx="70%" cy="10%" r="2" fill="#FFFFFF" />
+  <circle cx="90%" cy="80%" r="3" fill="#FFFFFF" />
+</svg>
