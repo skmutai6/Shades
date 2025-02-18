@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Content */}
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto h-64 px-4 ">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Social Media Links */}
           <div className="flex space-x-6">

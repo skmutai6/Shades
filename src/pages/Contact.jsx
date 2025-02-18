@@ -62,6 +62,13 @@ const Contact = () => {
             />
           </div>
           <div className="mb-4">
+            <input
+              type="text"
+              placeholder="Subject"
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-800 text-white"
+            />
+          </div>
+          <div className="mb-4">
             <textarea
               placeholder="Your Message"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-800 text-white"

@@ -4,17 +4,17 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     id: 1,
-    title: "Project 1",
-    description: "A cool project I built.",
-    image: "#",
-    link: "#",
+    title: "MARPS Africa Solutions Website",
+    description: "Innovation Without Limits.",
+    image: "/image.png",
+    link: "https://marps.co.ke/",
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Another awesome project.",
-    image: "#",
-    link: "#",
+    title: "Ongoing Milestone Group Project",
+    description: "Work in progress for a comprehensive School Management System.",
+    image: "/image2.png",
+    link: "https://sms.marps.co.ke/",
   },
 ];
 
@@ -74,6 +74,8 @@ const Projects = () => {
                 <p className="text-gray-300 mb-4">{project.description}</p>
                 <a
                   href={project.link}
+                  target="_blank" // Open link in a new tab
+                  rel="noopener noreferrer" // Security best practice
                   className="text-blue-500 hover:underline"
                 >
                   Learn More
